@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- common attributes -->
+
+    <declare-styleable name="Attributes">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="targetCorner" format="enum">
+            <enum name="all" value="0" />
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="left" value="3" />
+            <enum name="right" value="4" />
+            <enum name="topLeft" value="5" />
+            <enum name="topRight" value="6" />
+            <enum name="bottomLeft" value="7" />
+            <enum name="bottomRight" value="8" />
+            <enum name="none" value="9" />
+        </attr>
+    </declare-styleable>
+
+    <!-- custom views -->
+
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="cornerRadius" />
+        <attr name="targetCorner" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerBorderView">
+        <attr name="cornerRadius"/>
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+        <attr name="targetCorner" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerConstraintLayout">
+        <attr name="cornerRadius" />
+        <attr name="targetCorner" />
+    </declare-styleable>
+
+</resources>
